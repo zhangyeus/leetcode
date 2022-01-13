@@ -14,6 +14,7 @@ class Q2PalindromeTest(unittest.TestCase):
         self.assertFalse(q2_palindrome_number.run(-2458542))
         self.assertFalse(q2_palindrome_number.run(230))
         self.assertFalse(q2_palindrome_number.run(4357))
+        self.assertFalse(q2_palindrome_number.run(1258542))        
 
 if __name__ == '__main__':
     unittest.main()
